@@ -29,7 +29,7 @@ public class ApplicationSpeedupTest {
         // when
         try {
             // TODO :: add benchmarking code
-            
+
             for(int i = 0; i < inFiles.length; i++) {
                 adder = new AdderSequential(projectDir + inFiles[i], projectDir + outFiles[i]);
                 adder.doAdd();
